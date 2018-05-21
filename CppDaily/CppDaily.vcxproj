@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{CDA221BE-223A-4B6F-8D1D-E939E84EEABF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CppDaily</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="common\common.cpp" />
+    <ClCompile Include="Daily0122_auto decltype 与 初值列表.cpp" />
+    <ClCompile Include="Daily0123.cpp" />
+    <ClCompile Include="Daily0124.cpp" />
+    <ClCompile Include="Daily0125_子字符串-查找-数值转换.cpp" />
+    <ClCompile Include="Daily0128.cpp" />
+    <ClCompile Include="Daily0129.cpp" />
+    <ClCompile Include="Daily0130_正则_search与match.cpp" />
+    <ClCompile Include="Daily0131_正则_match_result.cpp" />
+    <ClCompile Include="Daily0201_正则_3种方式迭代.cpp" />
+    <ClCompile Include="Daily0206_正则_分词迭代器.cpp" />
+    <ClCompile Include="Daily0207_正则_替换.cpp" />
+    <ClCompile Include="Daily0210_c11一些新特性：一致初始化与改进的循环.cpp" />
+    <ClCompile Include="Daily0211_c11一些新特性（二%29：变参模板与lambda.cpp" />
+    <ClCompile Include="Daily0220_异常.cpp" />
+    <ClCompile Include="Daily0221_通用工具_pair和tuple：序列化与反序列化，ref，cref.cpp" />
+    <ClCompile Include="Daily0222_通用工具_tuple(二).cpp" />
+    <ClCompile Include="Daily0228_通用工具_智能指针.cpp" />
+    <ClCompile Include="Daily0301_通用工具_weakptr.cpp" />
+    <ClCompile Include="Daily0305_shared_ptr与线程安全.cpp" />
+    <ClCompile Include="Daily0306_unique_ptr与资源管理.cpp" />
+    <ClCompile Include="Daily0307_unique_ptr与资源管理（二）：数组资源管理以及自定义析构.cpp" />
+    <ClCompile Include="Daily0308_数值极值.cpp" />
+    <ClCompile Include="Daily0313_type_traits.cpp" />
+    <ClCompile Include="Daily0314_type_traits%28二%29：单参判别，双参比较，类型修饰.cpp" />
+    <ClCompile Include="Daily0315_reference wrapper和function wrapper，以及min max swap.cpp" />
+    <ClCompile Include="Daily0319_ratio_编译期分数运算.cpp" />
+    <ClCompile Include="Daily0320_chrono_duration.cpp" />
+    <ClCompile Include="Daily0321_clock和timepoint.cpp" />
+    <ClCompile Include="Daily0322_chrono_timpoint计算.cpp" />
+    <ClCompile Include="Daily0326_timepoint和time_t的互转.cpp" />
+    <ClCompile Include="Daily0327_函数对象（一）：函数对象持有的内部状态.cpp" />
+    <ClCompile Include="Daily0329_函数对象（二）：改变与获取函数对象持有的内部状态.cpp" />
+    <ClCompile Include="Daily0402_函数对象（三）：bind.cpp" />
+    <ClCompile Include="Daily0403_函数对象（四）：绑定到成员函数.cpp" />
+    <ClCompile Include="Daily0409_容器概览（一）.cpp" />
+    <ClCompile Include="Daily0410_容器概览（二）：无序容器.cpp" />
+    <ClCompile Include="Daily0411_算法概览.cpp" />
+    <ClCompile Include="Daily0412_算法概览（二）：某些多区间算法.cpp" />
+    <ClCompile Include="Daily0413_迭代器（一）：插入式迭代器和流式迭代器.cpp" />
+    <ClCompile Include="Daily0416_算法概览（三）：移除元素.cpp" />
+    <ClCompile Include="Daily0417_算法概览（四）：copy，earase_remove,find_if,sort.cpp" />
+    <ClCompile Include="Daily0418_预定义函数对象与binder.cpp" />
+    <ClCompile Include="Daily0423_容器一_vector与deque.cpp" />
+    <ClCompile Include="Daily0424_容器二_list.cpp" />
+    <ClCompile Include="Daily0428_容器三_set 与 multiset：自定义排序规则.cpp" />
+    <ClCompile Include="Daily0501_容器四_map 与 multimap.cpp" />
+    <ClCompile Include="Daily0503_容器五_unorderd_set.cpp" />
+    <ClCompile Include="Daily0507_无序容器_buckets.cpp" />
+    <ClCompile Include="Daily0508_容器回顾以及扩展（c-style型容器）.cpp" />
+    <ClCompile Include="Daily0509_迭代器：分类以及迭代器辅助工具.cpp" />
+    <ClCompile Include="Daily0510_迭代器适配器.cpp" />
+    <ClCompile Include="Daily0516_算法（一）：综述以及for_each，count_if，maxmin_element等.cpp" />
+    <ClCompile Include="Daily0517_算法（二）：查找算法 find ，search等.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\common.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

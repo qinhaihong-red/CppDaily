@@ -18,6 +18,7 @@ STL算法不会对STL容器进行物理上的增和删，而只能进行改和查的操作.
 	--更易算法（modifying）:如transform等.
 	--移除算法：如remove，unique_copy等.
 	--查找算法：find,search等
+	--已排序区间的查找算法：binary_search, lower_bound,upper_bound
 	--变序算法：如reverse,shuffle,partition等.
 	--排序算法：如sort,partial_sort,stable_sort等.
 	--数值算法：accumulate等.

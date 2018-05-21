@@ -180,6 +180,9 @@
     <ClCompile Include="Daily0517_算法（二）：查找算法 find ，search等.cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Daily0521_算法（三）：查找算法 find_first_of，adjacent_find，equal等.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\common.h">

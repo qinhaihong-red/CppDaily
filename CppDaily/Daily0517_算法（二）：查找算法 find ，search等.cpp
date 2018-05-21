@@ -142,7 +142,7 @@ void func_find_search_inside0517()
 }
 
 
-int main()
+int maindaily0517()
 {
 	func_find_search_inside0517();
 

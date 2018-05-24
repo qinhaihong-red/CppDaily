@@ -120,7 +120,7 @@ void func_algor_find_inside0521()
 
 }
 
-int main()
+int maindaily0521()
 {
 	func_algor_find_inside0521();
 	

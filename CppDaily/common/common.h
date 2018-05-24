@@ -36,6 +36,22 @@ namespace common
 		}
 	}
 
+	template<typename T1,typename T2>
+	void print_elems(const std::map<T1, T2> &t, PrintFormat pf = PrintFormat::s)
+	{
+		for (auto &i : t)
+		{
+			if (pf == PrintFormat::s)
+			{
+				std::cout << "["<<i.first << ","<<i.second<<"]"<<" ";
+			}
+			else if (pf == PrintFormat::n)
+			{
+				std::cout << "[" << i.first << "," << i.second << "]" << "\n";
+			}
+
+		}
+	}
 	template<typename T>
 	void insert_element(T &t, int first, int last)
 	{

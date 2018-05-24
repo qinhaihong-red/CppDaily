@@ -174,13 +174,22 @@
     <ClCompile Include="Daily0508_容器回顾以及扩展（c-style型容器）.cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Daily0516_算法（一）：综述以及for_each，count_if，maxmin_element等.cpp">
+    <ClCompile Include="Daily0516_非更易算法（一）：综述以及for_each，count_if，maxmin_element等.cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Daily0517_算法（二）：查找算法 find ，search等.cpp">
+    <ClCompile Include="Daily0517_非更易算法（二）：查找算法 find ，search等.cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Daily0521_算法（三）：查找算法 find_first_of，adjacent_find，equal等.cpp">
+    <ClCompile Include="Daily0521_非更易算法（三）：查找算法 find_first_of，adjacent_find，equal等.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0522_非更易算法（四）：is_permutation，mismatch，lexicographical_compare等.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0523_非更易算法（五）：is_sorted, is_partitoned,is_heap, all-any-non_of 等.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0524_更易算法（一）：copy，move.cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
   </ItemGroup>

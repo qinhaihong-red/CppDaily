@@ -192,6 +192,18 @@
     <ClCompile Include="Daily0524_更易算法（一）：copy，move.cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Daily0528_更易算法（二）：tansform转换和结合元素，swap_range互换元素.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0529_更易算法（三）：赋值与替换：fill , fill_n , generate , generate_n , iota , replace(_if) , replace_copy(_if).cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0530_更易算法（四）：移除性算法：remove%28_if%29,remove_copy%28_if%29, unique%28_if%29,unique_copy%28_if%29.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0604_变序算法（一）：反转，旋转，排列等：reverse, rotate, premutation.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\common.h">

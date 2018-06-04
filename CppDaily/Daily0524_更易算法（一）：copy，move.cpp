@@ -85,7 +85,7 @@ void func_algor_0524()
 
 }
 
-int main()
+int main0524()
 {
 	func_algor_0524();
 

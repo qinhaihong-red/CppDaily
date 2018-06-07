@@ -101,7 +101,7 @@ void func_algor_0604()
 }
 
 
-int main()
+int main0604()
 {
 	func_algor_0604();
 

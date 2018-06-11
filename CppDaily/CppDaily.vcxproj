@@ -204,6 +204,8 @@
     <ClCompile Include="Daily0605_变序算法（二）：混淆，划分：shuffle，partition，partition_copy.cpp" />
     <ClCompile Include="Daily0606_排序算法（一）：全部排序与局部排序：sort，stable_sort，partial_sort，partial_sort_copy.cpp" />
     <ClCompile Include="Daily0607_排序算法（二）：nth_element，sort_heap等heap算法.cpp" />
+    <ClCompile Include="Daily0608_已排序区间算法（一）：binary_search，includes，lower_bound，upper_bound，equal_range等.cpp" />
+    <ClCompile Include="Daily0611_已排序区间算法（二）：集合相关的合并算法：merge，set_union，set_intersection，set_difference，set_symmetric_difference等.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\common.h" />

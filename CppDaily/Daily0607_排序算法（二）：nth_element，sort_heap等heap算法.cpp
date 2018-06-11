@@ -4,9 +4,10 @@
 
 继续排序算法:
 1.nth_element(beg,nth,end,[BP op]):
-	根据第nth个元素进行排序.而partition则根据提供的op进行划分.
+	根据第nth个元素进行排序.
 	包含同名的带双参判别式的版本.
 	使得在nth前的元素都小于（或满足op条件）nth，其后元素都大于nth(或满足op条件).
+	而partition则根据提供的op进行划分.
 
 2.heap相关算法：
 	所谓heap，是这样一个二叉树：
@@ -101,7 +102,7 @@ void func_algor_0607()
 	std::cout << std::endl;
 }
 
-int main()
+int main0607()
 {
 	func_algor_0607();
 

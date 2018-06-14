@@ -216,7 +216,13 @@
     <ClCompile Include="Daily0608_已排序区间算法（一）：binary_search，includes，lower_bound，upper_bound，equal_range等.cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Daily0611_已排序区间算法（二）：集合相关的合并算法：merge，set_union，set_intersection，set_difference，set_symmetric_difference等.cpp">
+    <ClCompile Include="Daily0611_已排序区间算法（二）：集合相关的合并算法：merge，inplace_merge，set_union，set_intersection，set_difference，set_symmetric_difference等.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0612_数值算法（一）：对数列的累计计算accumulate，数列的内积inner_product .cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0614_数值算法（二）：相对数列和绝对数列的转换：partial_sum，adjacent_difference .cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -208,6 +208,9 @@
     <ClCompile Include="Daily0611_已排序区间算法（二）：集合相关的合并算法：merge，inplace_merge，set_union，set_intersection，set_difference，set_symmetric_difference等.cpp" />
     <ClCompile Include="Daily0612_数值算法（一）：对数列的累计计算accumulate，数列的内积inner_product .cpp" />
     <ClCompile Include="Daily0614_数值算法（二）：相对数列和绝对数列的转换：partial_sum，adjacent_difference .cpp" />
+    <ClCompile Include="Daily0615_特殊容器（一）：容器适配器：stack，queue，priority_queue .cpp" />
+    <ClCompile Include="Daily0619_特殊容器（二）：位集合：bitset .cpp" />
+    <ClCompile Include="Daily0626_正则表达式回顾.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\common.h" />

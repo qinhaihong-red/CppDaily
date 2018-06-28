@@ -66,7 +66,7 @@ void func_algor_0614()
 
 }
 
-int main()
+int main0614()
 {
 	func_algor_0614();
 

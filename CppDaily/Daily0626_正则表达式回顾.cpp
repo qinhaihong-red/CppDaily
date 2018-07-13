@@ -212,7 +212,7 @@ void func_algor_0626()
 }
 
 
-int main()
+int main0626()
 {
 	func_algor_0626();
 

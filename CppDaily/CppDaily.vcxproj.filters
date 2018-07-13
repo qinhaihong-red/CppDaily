@@ -234,9 +234,24 @@
     <ClCompile Include="Daily0626_正则表达式回顾.cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Daily0711_IO Stream（二）：stream的IO操作符与IO函数.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0710_IO Stream（一）：IO体系结构以及stream状态.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0712_IO Stream（三）：stream的操纵器与格式化.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\serialization.cpp">
+      <Filter>资源文件\common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\common.h">
+      <Filter>资源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\serialization.h">
       <Filter>资源文件\common</Filter>
     </ClInclude>
   </ItemGroup>

@@ -8,6 +8,8 @@
 #include <set>
 #include <map>
 
+#include <memory>
+
 #include <functional>
 #include <iterator>
 #include <algorithm>

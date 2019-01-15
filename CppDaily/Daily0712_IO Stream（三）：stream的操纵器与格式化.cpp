@@ -250,7 +250,7 @@ void func_algor_0712()
 }
 
 
-int main()
+int maindaily0712()
 {
 	//test0712();
 	func_algor_0712();

@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="common\common.cpp" />
     <ClCompile Include="common\serialization.cpp" />
+    <ClCompile Include="common\strfile.cpp" />
     <ClCompile Include="Daily0122_auto decltype 与 初值列表.cpp" />
     <ClCompile Include="Daily0123.cpp" />
     <ClCompile Include="Daily0124.cpp" />
@@ -213,12 +214,15 @@
     <ClCompile Include="Daily0619_特殊容器（二）：位集合：bitset .cpp" />
     <ClCompile Include="Daily0626_正则表达式回顾.cpp" />
     <ClCompile Include="Daily0710_IO Stream（一）：IO体系结构以及stream状态.cpp" />
-    <ClCompile Include="Daily0711_IO Stream（二）：stream的IO操作符与IO函数.cpp" />
+    <ClCompile Include="Daily0711_IO Stream（二）：stream的格式化IO操作符与非格式化IO函数.cpp" />
     <ClCompile Include="Daily0712_IO Stream（三）：stream的操纵器与格式化.cpp" />
+    <ClCompile Include="Daily0724_IO Stream（四）：文件IO.cpp" />
+    <ClCompile Include="Daily0726_IO Stream（五）：string IO.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\common.h" />
     <ClInclude Include="common\serialization.h" />
+    <ClInclude Include="common\strfile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

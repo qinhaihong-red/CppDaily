@@ -234,9 +234,6 @@
     <ClCompile Include="Daily0626_正则表达式回顾.cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Daily0711_IO Stream（二）：stream的IO操作符与IO函数.cpp">
-      <Filter>资源文件\源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Daily0710_IO Stream（一）：IO体系结构以及stream状态.cpp">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
@@ -246,12 +243,27 @@
     <ClCompile Include="common\serialization.cpp">
       <Filter>资源文件\common</Filter>
     </ClCompile>
+    <ClCompile Include="Daily0711_IO Stream（二）：stream的格式化IO操作符与非格式化IO函数.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0724_IO Stream（四）：文件IO.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\strfile.cpp">
+      <Filter>资源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Daily0726_IO Stream（五）：string IO.cpp">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\common.h">
       <Filter>资源文件\common</Filter>
     </ClInclude>
     <ClInclude Include="common\serialization.h">
+      <Filter>资源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\strfile.h">
       <Filter>资源文件\common</Filter>
     </ClInclude>
   </ItemGroup>

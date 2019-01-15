@@ -33,10 +33,9 @@ ibinstream& operator>>(ibinstream &ibs, std::string &s)
 	ibs.read((char*)&len, sizeof(len));
 
 	std::unique_ptr<char[]> p(new char[len+1]);
-	p[len + 1] = '\0';
+	p[len] = '\0';
 	ibs.read(&p[0], len);
 	s = std::string(p.get());
-
 	return ibs;
 }
 

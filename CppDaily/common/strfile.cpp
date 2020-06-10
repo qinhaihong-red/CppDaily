@@ -52,3 +52,8 @@ long long strfiletools::get_filesize(const std::string &filename, int *err )
 
 	return (long long)ifs.tellg();
 }
+
+std::vector<std::string> strfiletools::split(const std::string& str, const std::string& regex)
+{
+	return {std::sregex_token_iterator(str.begin(), str.end(), std::regex(regex), -1), std::sregex_token_iterator()};
+}
